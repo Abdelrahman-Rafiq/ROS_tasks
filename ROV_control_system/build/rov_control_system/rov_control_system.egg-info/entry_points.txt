@@ -1,6 +1,0 @@
-[console_scripts]
-joystick = rov_control_system.joystick:main
-navigation = rov_control_system.navigation:main
-pca = rov_control_system.PCA:main
-thrusters = rov_control_system.thrusters:main
-

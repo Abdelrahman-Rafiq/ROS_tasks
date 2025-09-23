@@ -1,6 +1,0 @@
-[console_scripts]
-infrared = multi_sensor_validator.infrared:main
-logger = multi_sensor_validator.logger:main
-ultrasonic = multi_sensor_validator.ultrasonic:main
-validator = multi_sensor_validator.validator:main
-
