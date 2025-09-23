@@ -1,0 +1,50 @@
+[0.855s] Invoking command in '/home/rafiq/Desktop/task1_ws/src/multi_sensor_validator': PYTHONPATH=/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build install --record /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/install.log --single-version-externally-managed install_data
+[1.280s] running egg_info
+[1.280s] creating ../../build/multi_sensor_validator/multi_sensor_validator.egg-info
+[1.284s] writing ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/PKG-INFO
+[1.284s] writing dependency_links to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/dependency_links.txt
+[1.284s] writing entry points to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/entry_points.txt
+[1.284s] writing requirements to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/requires.txt
+[1.284s] writing top-level names to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/top_level.txt
+[1.284s] writing manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+[1.287s] reading manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+[1.287s] adding license file 'LICENSE'
+[1.290s] writing manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+[1.290s] running build
+[1.290s] running build_py
+[1.290s] creating /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build
+[1.291s] creating /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib
+[1.291s] creating /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.291s] copying multi_sensor_validator/infrared.py -> /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.291s] copying multi_sensor_validator/logger.py -> /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.291s] copying multi_sensor_validator/ultrasonic.py -> /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.292s] copying multi_sensor_validator/__init__.py -> /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.292s] copying multi_sensor_validator/validator.py -> /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[1.292s] running install
+[1.292s] running install_lib
+[1.294s] creating /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.294s] copying /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator/infrared.py -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.294s] copying /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator/logger.py -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.294s] copying /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator/ultrasonic.py -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.296s] copying /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator/__init__.py -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.296s] copying /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build/lib/multi_sensor_validator/validator.py -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[1.296s] byte-compiling /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/infrared.py to infrared.cpython-310.pyc
+[1.298s] byte-compiling /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/logger.py to logger.cpython-310.pyc
+[1.298s] byte-compiling /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/ultrasonic.py to ultrasonic.cpython-310.pyc
+[1.298s] byte-compiling /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/__init__.py to __init__.cpython-310.pyc
+[1.298s] byte-compiling /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/validator.py to validator.cpython-310.pyc
+[1.299s] running install_data
+[1.300s] creating /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/ament_index
+[1.300s] creating /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/ament_index/resource_index
+[1.300s] creating /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/ament_index/resource_index/packages
+[1.300s] copying resource/multi_sensor_validator -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/ament_index/resource_index/packages
+[1.300s] copying package.xml -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/multi_sensor_validator
+[1.301s] running install_egg_info
+[1.302s] Copying ../../build/multi_sensor_validator/multi_sensor_validator.egg-info to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info
+[1.302s] running install_scripts
+[1.336s] Installing infrared script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.364s] Installing logger script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.364s] Installing ultrasonic script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.364s] Installing validator script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.367s] writing list of installed files to '/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/install.log'
+[1.406s] Invoked command in '/home/rafiq/Desktop/task1_ws/src/multi_sensor_validator' returned '0': PYTHONPATH=/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build install --record /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/install.log --single-version-externally-managed install_data

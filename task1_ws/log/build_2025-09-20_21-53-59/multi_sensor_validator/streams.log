@@ -1,0 +1,22 @@
+[0.876s] Invoking command in '/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator': PYTHONPATH=/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build --no-deps symlink_data --force
+[1.264s] running develop
+[1.450s] running egg_info
+[1.450s] writing multi_sensor_validator.egg-info/PKG-INFO
+[1.450s] writing dependency_links to multi_sensor_validator.egg-info/dependency_links.txt
+[1.450s] writing entry points to multi_sensor_validator.egg-info/entry_points.txt
+[1.452s] writing requirements to multi_sensor_validator.egg-info/requires.txt
+[1.452s] writing top-level names to multi_sensor_validator.egg-info/top_level.txt
+[1.454s] reading manifest file 'multi_sensor_validator.egg-info/SOURCES.txt'
+[1.466s] writing manifest file 'multi_sensor_validator.egg-info/SOURCES.txt'
+[1.468s] running build_ext
+[1.469s] Creating /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages/multi-sensor-validator.egg-link (link to .)
+[1.470s] Installing infrared script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.471s] Installing logger script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.472s] Installing ultrasonic script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.472s] Installing validator script to /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/multi_sensor_validator
+[1.473s] 
+[1.473s] Installed /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator
+[1.473s] running symlink_data
+[1.473s] symbolically linking /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/resource/multi_sensor_validator -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/ament_index/resource_index/packages
+[1.474s] symbolically linking /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/package.xml -> /home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/share/multi_sensor_validator
+[1.512s] Invoked command in '/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator' returned '0': PYTHONPATH=/home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/Desktop/task1_ws/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rafiq/Desktop/task1_ws/build/multi_sensor_validator/build --no-deps symlink_data --force
