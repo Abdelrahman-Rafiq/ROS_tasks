@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000907] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000951] (multi_sensor_validator) JobQueued: {'identifier': 'multi_sensor_validator', 'dependencies': OrderedDict()}
+[0.000976] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.008675] (multi_sensor_validator) JobStarted: {'identifier': 'multi_sensor_validator'}
+[0.099203] (-) TimerEvent: {}
+[0.199525] (-) TimerEvent: {}
+[0.299925] (-) TimerEvent: {}
+[0.321950] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.325145] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.326251] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rafiq/ros_adv/build/interfaces', '--', '-j20', '-l20'], 'cwd': '/home/rafiq/ros_adv/build/interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafiq'), ('GIT_ASKPASS', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafiq/ros_adv/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafiq'), ('OLDPWD', '/home/rafiq/ros_adv/src'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0e894140-2ca6-4081-a47a-44b08948cfa9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafiq/ros_adv/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafiq'), ('NAME', 'Abdelrahman'), ('WSL_INTEROP', '/run/WSL/14783_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Abdelrahman/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Abdelrahman/AppData/Roaming/npm:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Python313:/mnt/c/Users/Abdelrahman/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/Graphviz/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/rafiq/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-080d90684bc2c42d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/rafiq/.vscode-server/data/User/workspaceStorage/b743a734b238a8f1107fe40c99248f8f/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1d35de783.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rafiq/ros_adv/install/multi_sensor_validator:/home/rafiq/ros_adv/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rafiq/ros_adv/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rafiq/ros_adv/install/interfaces:/home/rafiq/ros_adv/install/multi_sensor_validator:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.359437] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400048] (-) TimerEvent: {}
+[0.500379] (-) TimerEvent: {}
+[0.522664] (interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.600493] (-) TimerEvent: {}
+[0.700845] (-) TimerEvent: {}
+[0.702296] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.705459] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.711744] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.731267] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760416] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.768374] (multi_sensor_validator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/multi_sensor_validator', 'build', '--build-base', '/home/rafiq/ros_adv/build/multi_sensor_validator/build', 'install', '--record', '/home/rafiq/ros_adv/build/multi_sensor_validator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rafiq/ros_adv/src/multi_sensor_validator', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rafiq', 'GIT_ASKPASS': '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rafiq/ros_adv/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rafiq', 'OLDPWD': '/home/rafiq/ros_adv/src', 'TERM_PROGRAM_VERSION': '1.104.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0e894140-2ca6-4081-a47a-44b08948cfa9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rafiq/ros_adv/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rafiq', 'NAME': 'Abdelrahman', 'WSL_INTEROP': '/run/WSL/14783_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Abdelrahman/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Abdelrahman/AppData/Roaming/npm:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Python313:/mnt/c/Users/Abdelrahman/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/Graphviz/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/rafiq/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-080d90684bc2c42d.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/rafiq/.vscode-server/data/User/workspaceStorage/b743a734b238a8f1107fe40c99248f8f/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b1d35de783.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/rafiq/ros_adv/install/multi_sensor_validator:/home/rafiq/ros_adv/install/interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/rafiq/ros_adv/build/multi_sensor_validator', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rafiq/ros_adv/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/rafiq/ros_adv/install/interfaces', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[0.800948] (-) TimerEvent: {}
+[0.847170] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.901074] (-) TimerEvent: {}
+[1.001434] (-) TimerEvent: {}
+[1.070630] (multi_sensor_validator) StdoutLine: {'line': b'running egg_info\n'}
+[1.071646] (multi_sensor_validator) StdoutLine: {'line': b'writing ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/PKG-INFO\n'}
+[1.071998] (multi_sensor_validator) StdoutLine: {'line': b'writing dependency_links to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/dependency_links.txt\n'}
+[1.072273] (multi_sensor_validator) StdoutLine: {'line': b'writing entry points to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/entry_points.txt\n'}
+[1.072465] (multi_sensor_validator) StdoutLine: {'line': b'writing requirements to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/requires.txt\n'}
+[1.072963] (multi_sensor_validator) StdoutLine: {'line': b'writing top-level names to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/top_level.txt\n'}
+[1.075229] (multi_sensor_validator) StdoutLine: {'line': b"reading manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'\n"}
+[1.076078] (multi_sensor_validator) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.077464] (multi_sensor_validator) StdoutLine: {'line': b"writing manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'\n"}
+[1.077658] (multi_sensor_validator) StdoutLine: {'line': b'running build\n'}
+[1.077909] (multi_sensor_validator) StdoutLine: {'line': b'running build_py\n'}
+[1.078417] (multi_sensor_validator) StdoutLine: {'line': b'running install\n'}
+[1.078900] (multi_sensor_validator) StdoutLine: {'line': b'running install_lib\n'}
+[1.081044] (multi_sensor_validator) StdoutLine: {'line': b'running install_data\n'}
+[1.081351] (multi_sensor_validator) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.083715] (multi_sensor_validator) StdoutLine: {'line': b"removing '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.084280] (multi_sensor_validator) StdoutLine: {'line': b'Copying ../../build/multi_sensor_validator/multi_sensor_validator.egg-info to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info\n'}
+[1.085194] (multi_sensor_validator) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101546] (-) TimerEvent: {}
+[1.117637] (multi_sensor_validator) StdoutLine: {'line': b'Installing infrared script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator\n'}
+[1.118020] (multi_sensor_validator) StdoutLine: {'line': b'Installing lidar script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator\n'}
+[1.118354] (multi_sensor_validator) StdoutLine: {'line': b'Installing logger script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator\n'}
+[1.118546] (multi_sensor_validator) StdoutLine: {'line': b'Installing ultrasonic script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator\n'}
+[1.118938] (multi_sensor_validator) StdoutLine: {'line': b'Installing validator script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator\n'}
+[1.119246] (multi_sensor_validator) StdoutLine: {'line': b"writing list of installed files to '/home/rafiq/ros_adv/build/multi_sensor_validator/install.log'\n"}
+[1.144010] (multi_sensor_validator) CommandEnded: {'returncode': 0}
+[1.157371] (multi_sensor_validator) JobEnded: {'identifier': 'multi_sensor_validator', 'rc': 0}
+[1.201688] (-) TimerEvent: {}
+[1.261885] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301805] (-) TimerEvent: {}
+[1.402086] (-) TimerEvent: {}
+[1.502362] (-) TimerEvent: {}
+[1.602650] (-) TimerEvent: {}
+[1.702931] (-) TimerEvent: {}
+[1.787524] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803065] (-) TimerEvent: {}
+[1.903361] (-) TimerEvent: {}
+[2.003758] (-) TimerEvent: {}
+[2.034356] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.061819] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.087434] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.087609] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.087769] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.103881] (-) TimerEvent: {}
+[2.149427] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.158656] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.159657] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.162997] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.204015] (-) TimerEvent: {}
+[2.226710] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.240111] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rafiq/ros_adv/build/interfaces\n'}
+[2.281770] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.297647] (interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_interfaces\n'}
+[2.300396] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.309945] (-) TimerEvent: {}
+[2.410257] (-) TimerEvent: {}
+[2.510598] (-) TimerEvent: {}
+[2.610935] (-) TimerEvent: {}
+[2.626827] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.628198] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[2.628499] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[2.628781] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[2.631843] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.632717] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.663938] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[2.711049] (-) TimerEvent: {}
+[2.757785] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[2.771065] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.771231] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.772819] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.811163] (-) TimerEvent: {}
+[2.817622] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.837731] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/sensor_properties__functions.c.o\x1b[0m\n'}
+[2.840338] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/check_obstacle__functions.c.o\x1b[0m\n'}
+[2.911346] (-) TimerEvent: {}
+[2.934669] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.011482] (-) TimerEvent: {}
+[3.078194] (interfaces) StdoutLine: {'line': b'[ 20%] Built target interfaces__rosidl_generator_c\n'}
+[3.095176] (interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.095389] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.096327] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.111615] (-) TimerEvent: {}
+[3.126734] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.139573] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/sensor_properties__type_support.cpp.o\x1b[0m\n'}
+[3.144480] (interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/check_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.181403] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.201380] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/sensor_properties__type_support.cpp.o\x1b[0m\n'}
+[3.206336] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/check_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.211702] (-) TimerEvent: {}
+[3.219159] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.243890] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/check_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.244714] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/sensor_properties__type_support.cpp.o\x1b[0m\n'}
+[3.311864] (-) TimerEvent: {}
+[3.412204] (-) TimerEvent: {}
+[3.497907] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.512347] (-) TimerEvent: {}
+[3.517789] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/sensor_properties__type_support.cpp.o\x1b[0m\n'}
+[3.521540] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/check_obstacle__type_support.cpp.o\x1b[0m\n'}
+[3.537949] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.547324] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.557117] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/check_obstacle__type_support.c.o\x1b[0m\n'}
+[3.562115] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/sensor_properties__type_support.c.o\x1b[0m\n'}
+[3.566137] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/sensor_properties__type_support_c.cpp.o\x1b[0m\n'}
+[3.566497] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/check_obstacle__type_support_c.cpp.o\x1b[0m\n'}
+[3.572636] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.579144] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.612447] (-) TimerEvent: {}
+[3.618556] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.692453] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[3.692916] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_c\n'}
+[3.712621] (-) TimerEvent: {}
+[3.732310] (interfaces) StdoutLine: {'line': b'[ 66%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[3.812686] (-) TimerEvent: {}
+[3.824500] (interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.912767] (-) TimerEvent: {}
+[3.937838] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.012838] (-) TimerEvent: {}
+[4.025709] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.028100] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.084585] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.112948] (-) TimerEvent: {}
+[4.196002] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.213093] (-) TimerEvent: {}
+[4.217428] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[4.242134] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.313260] (-) TimerEvent: {}
+[4.413515] (-) TimerEvent: {}
+[4.513823] (-) TimerEvent: {}
+[4.614105] (-) TimerEvent: {}
+[4.719079] (-) TimerEvent: {}
+[4.748959] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[4.762826] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[4.777637] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_check_obstacle_s.c.o\x1b[0m\n'}
+[4.779809] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_sensor_properties_s.c.o\x1b[0m\n'}
+[4.819257] (-) TimerEvent: {}
+[4.919664] (-) TimerEvent: {}
+[4.954979] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.019811] (-) TimerEvent: {}
+[5.088263] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[5.100247] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.100895] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.102043] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.115293] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.115486] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.118189] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.119934] (-) TimerEvent: {}
+[5.220230] (-) TimerEvent: {}
+[5.246768] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.270672] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.272949] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.320363] (-) TimerEvent: {}
+[5.398905] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.399298] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.400263] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[5.412438] (interfaces) CommandEnded: {'returncode': 0}
+[5.414092] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[5.420449] (-) TimerEvent: {}
+[5.422496] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rafiq/ros_adv/build/interfaces'], 'cwd': '/home/rafiq/ros_adv/build/interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rafiq'), ('GIT_ASKPASS', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rafiq/ros_adv/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rafiq'), ('OLDPWD', '/home/rafiq/ros_adv/src'), ('TERM_PROGRAM_VERSION', '1.104.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0e894140-2ca6-4081-a47a-44b08948cfa9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rafiq/ros_adv/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rafiq'), ('NAME', 'Abdelrahman'), ('WSL_INTEROP', '/run/WSL/14783_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rafiq/.vscode-server/bin/e3a5acfb517a443235981655413d566533107e92/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Abdelrahman/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Abdelrahman/AppData/Roaming/npm:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Abdelrahman/AppData/Local/Programs/Python/Python313:/mnt/c/Users/Abdelrahman/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/mnt/c/Program Files/Graphviz/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/rafiq/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/rafiq/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-080d90684bc2c42d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/rafiq/.vscode-server/data/User/workspaceStorage/b743a734b238a8f1107fe40c99248f8f/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b1d35de783.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/rafiq/ros_adv/install/multi_sensor_validator:/home/rafiq/ros_adv/install/interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rafiq/ros_adv/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/rafiq/ros_adv/install/interfaces:/home/rafiq/ros_adv/install/multi_sensor_validator:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[5.431242] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.431819] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[5.431966] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.432480] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.432954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.433272] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.433507] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__struct.h\n'}
+[5.433691] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__type_support.h\n'}
+[5.433921] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__functions.c\n'}
+[5.434029] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__functions.h\n'}
+[5.434106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/sensor_properties.h\n'}
+[5.435372] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.436077] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/check_obstacle.h\n'}
+[5.436284] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.436602] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__type_support.h\n'}
+[5.436850] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__functions.c\n'}
+[5.437230] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__struct.h\n'}
+[5.437417] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__functions.h\n'}
+[5.437591] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[5.437921] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[5.438199] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[5.438479] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[5.438865] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.438978] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.439041] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.439102] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__rosidl_typesupport_fastrtps_c.h\n'}
+[5.439291] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.439534] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.439587] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.439630] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[5.439906] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.440425] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.440568] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.440654] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.440813] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.441012] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/sensor_properties.hpp\n'}
+[5.441093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.441165] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__type_support.hpp\n'}
+[5.441346] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__struct.hpp\n'}
+[5.441827] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__builder.hpp\n'}
+[5.441956] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__traits.hpp\n'}
+[5.442166] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.442250] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.442514] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__traits.hpp\n'}
+[5.442671] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__builder.hpp\n'}
+[5.442991] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__struct.hpp\n'}
+[5.443103] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__type_support.hpp\n'}
+[5.443152] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/check_obstacle.hpp\n'}
+[5.443194] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.443242] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.443369] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.443678] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.444018] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[5.444236] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.444436] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.444554] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.444747] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[5.445044] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.445248] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.445304] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.445350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.445432] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.445520] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.445725] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.445787] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__rosidl_typesupport_introspection_c.h\n'}
+[5.445840] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__type_support.c\n'}
+[5.445883] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.446070] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.446333] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__type_support.c\n'}
+[5.446495] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__rosidl_typesupport_introspection_c.h\n'}
+[5.446716] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.446905] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.447196] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[5.447527] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.447615] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces\n'}
+[5.447662] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg\n'}
+[5.447705] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[5.447848] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.447898] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_properties__type_support.cpp\n'}
+[5.447939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv\n'}
+[5.447998] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[5.448103] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__type_support.cpp\n'}
+[5.448156] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/include/interfaces/interfaces/srv/detail/check_obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.448299] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.448556] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.448771] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[5.448917] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.449056] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[5.449175] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[5.449412] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[5.449606] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.449690] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.449893] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.450085] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.450274] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[5.450440] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[5.450817] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.451073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[5.451217] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sensor_properties_s.c\n'}
+[5.451356] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sensor_properties.py\n'}
+[5.451486] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[5.451605] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.451955] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.452118] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.452259] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[5.452396] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_check_obstacle_s.c\n'}
+[5.452533] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_check_obstacle.py\n'}
+[5.452670] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[5.452808] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.453129] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[5.453239] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.490878] (interfaces) StdoutLine: {'line': b"Listing '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[5.491033] (interfaces) StdoutLine: {'line': b"Compiling '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[5.491100] (interfaces) StdoutLine: {'line': b"Listing '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[5.491162] (interfaces) StdoutLine: {'line': b"Compiling '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[5.491222] (interfaces) StdoutLine: {'line': b"Compiling '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_sensor_properties.py'...\n"}
+[5.491279] (interfaces) StdoutLine: {'line': b"Listing '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[5.491325] (interfaces) StdoutLine: {'line': b"Compiling '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[5.491374] (interfaces) StdoutLine: {'line': b"Compiling '/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_check_obstacle.py'...\n"}
+[5.495907] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.496295] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.496495] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.496870] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.497101] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.497436] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.497628] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[5.498047] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rafiq/ros_adv/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[5.498146] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/msg/SensorProperties.idl\n'}
+[5.498461] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/srv/CheckObstacle.idl\n'}
+[5.498688] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/msg/SensorProperties.msg\n'}
+[5.498794] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/srv/CheckObstacle.srv\n'}
+[5.498992] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/srv/CheckObstacle_Request.msg\n'}
+[5.499235] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/srv/CheckObstacle_Response.msg\n'}
+[5.499534] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[5.499652] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[5.500012] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[5.500258] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[5.500341] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/path.sh\n'}
+[5.500420] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[5.500676] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/local_setup.bash\n'}
+[5.500809] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/local_setup.sh\n'}
+[5.501173] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[5.501400] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[5.501707] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/package.dsv\n'}
+[5.501875] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[5.502052] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.502344] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.502509] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.502716] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.502933] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.503108] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.503228] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.503420] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.503706] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.503884] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.504013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.504182] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.504340] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.504451] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.504616] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.504733] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.504847] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.504985] (interfaces) StdoutLine: {'line': b'-- Installing: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.505100] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.505236] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.505375] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.505550] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.505772] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.505885] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.505992] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[5.506124] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[5.506414] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rafiq/ros_adv/install/interfaces/share/interfaces/package.xml\n'}
+[5.507709] (interfaces) CommandEnded: {'returncode': 0}
+[5.522078] (-) TimerEvent: {}
+[5.524574] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[5.525284] (-) EventReactorShutdown: {}

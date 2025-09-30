@@ -1,0 +1,200 @@
+[2.582s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.582s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x732b7c43d3c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x732b7c43ce50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x732b7c43ce50>>, mixin_verb=('build',))
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.744s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafiq/ros_adv'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.759s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[2.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[2.763s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extensions ['ignore', 'ignore_ament_install']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extension 'ignore'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extension 'ignore_ament_install'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extensions ['colcon_pkg']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extension 'colcon_pkg'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extensions ['colcon_meta']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extension 'colcon_meta'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extensions ['ros']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_sensor_validator) by extension 'ros'
+[2.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_sensor_validator' with type 'ros.ament_python' and name 'multi_sensor_validator'
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.795s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.796s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.832s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.832s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafiq/ros_adv/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafiq/ros_adv/install/interfaces', 'merge_install': False, 'path': '/home/rafiq/ros_adv/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_target' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_clean_cache' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_clean_first' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'cmake_force_configure' from command line to 'False'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'ament_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'catkin_cmake_args' from command line to 'None'
+[2.833s] Level 5:colcon.colcon_core.verb:set package 'multi_sensor_validator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.833s] DEBUG:colcon.colcon_core.verb:Building package 'multi_sensor_validator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafiq/ros_adv/build/multi_sensor_validator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafiq/ros_adv/install/multi_sensor_validator', 'merge_install': False, 'path': '/home/rafiq/ros_adv/src/multi_sensor_validator', 'symlink_install': False, 'test_result_base': None}
+[2.833s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rafiq/ros_adv/src/interfaces' with build type 'ament_cmake'
+[2.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rafiq/ros_adv/src/interfaces'
+[2.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafiq/ros_adv/src/multi_sensor_validator' with build type 'ament_python'
+[2.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_sensor_validator', 'ament_prefix_path')
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/ament_prefix_path.ps1'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/ament_prefix_path.dsv'
+[2.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/ament_prefix_path.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros_adv/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rafiq/ros_adv/build/interfaces -- -j20 -l20
+[3.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafiq/ros_adv/src/multi_sensor_validator'
+[3.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros_adv/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rafiq/ros_adv/build/interfaces -- -j20 -l20
+[3.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros_adv/build/interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rafiq/ros_adv/build/interfaces
+[3.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[3.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros_adv/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rafiq/ros_adv/build/interfaces
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces' for CMake module files
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces' for CMake config files
+[3.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[3.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib'
+[3.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[3.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[3.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[3.432s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/bin'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib/pkgconfig/interfaces.pc'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib/python3.10/site-packages'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/bin'
+[3.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.ps1'
+[3.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.dsv'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.sh'
+[3.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.bash'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.zsh'
+[3.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros_adv/install/interfaces/share/colcon-core/packages/interfaces)
+[3.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[3.441s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces' for CMake module files
+[3.442s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces' for CMake config files
+[3.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[3.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib'
+[3.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[3.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[3.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[3.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/bin'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib/pkgconfig/interfaces.pc'
+[3.447s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/lib/python3.10/site-packages'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/interfaces/bin'
+[3.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.ps1'
+[3.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.dsv'
+[3.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.sh'
+[3.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.bash'
+[3.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/interfaces/share/interfaces/package.zsh'
+[3.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros_adv/install/interfaces/share/colcon-core/packages/interfaces)
+[3.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafiq/ros_adv/src/multi_sensor_validator': PYTHONPATH=/home/rafiq/ros_adv/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/ros_adv/build/multi_sensor_validator/build install --record /home/rafiq/ros_adv/build/multi_sensor_validator/install.log --single-version-externally-managed install_data
+[3.941s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator' for CMake module files
+[3.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafiq/ros_adv/src/multi_sensor_validator' returned '0': PYTHONPATH=/home/rafiq/ros_adv/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/ros_adv/build/multi_sensor_validator/build install --record /home/rafiq/ros_adv/build/multi_sensor_validator/install.log --single-version-externally-managed install_data
+[3.942s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator' for CMake config files
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator/lib'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator/bin'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/pkgconfig/multi_sensor_validator.pc'
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages'
+[3.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_sensor_validator', 'pythonpath')
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/pythonpath.ps1'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/pythonpath.dsv'
+[3.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/hook/pythonpath.sh'
+[3.946s] Level 1:colcon.colcon_core.environment:checking '/home/rafiq/ros_adv/install/multi_sensor_validator/bin'
+[3.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_sensor_validator)
+[3.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/package.ps1'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/package.dsv'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/package.sh'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/package.bash'
+[3.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator/package.zsh'
+[3.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafiq/ros_adv/install/multi_sensor_validator/share/colcon-core/packages/multi_sensor_validator)
+[3.954s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.956s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.027s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.028s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.028s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros_adv/install/local_setup.ps1'
+[4.029s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafiq/ros_adv/install/_local_setup_util_ps1.py'
+[4.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros_adv/install/setup.ps1'
+[4.032s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros_adv/install/local_setup.sh'
+[4.032s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafiq/ros_adv/install/_local_setup_util_sh.py'
+[4.033s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros_adv/install/setup.sh'
+[4.034s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros_adv/install/local_setup.bash'
+[4.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros_adv/install/setup.bash'
+[4.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafiq/ros_adv/install/local_setup.zsh'
+[4.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafiq/ros_adv/install/setup.zsh'

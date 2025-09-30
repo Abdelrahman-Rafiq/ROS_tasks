@@ -1,0 +1,44 @@
+[0.442s] Invoking command in '/home/rafiq/ros_adv/src/multi_sensor_validator': PYTHONPATH=/home/rafiq/ros_adv/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/ros_adv/build/multi_sensor_validator/build install --record /home/rafiq/ros_adv/build/multi_sensor_validator/install.log --single-version-externally-managed install_data
+[0.555s] running egg_info
+[0.555s] writing ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/dependency_links.txt
+[0.556s] writing entry points to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/entry_points.txt
+[0.556s] writing requirements to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/requires.txt
+[0.556s] writing top-level names to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/top_level.txt
+[0.557s] reading manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+[0.557s] adding license file 'LICENSE'
+[0.558s] writing manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+[0.558s] running build
+[0.558s] running build_py
+[0.558s] copying multi_sensor_validator/service_server.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[0.558s] copying multi_sensor_validator/logger_logic.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[0.558s] copying multi_sensor_validator/server_logic.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[0.559s] copying multi_sensor_validator/logger.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[0.559s] copying multi_sensor_validator/navigation_client_node.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+[0.559s] running install
+[0.559s] running install_lib
+[0.560s] copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/service_server.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[0.560s] copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/logger_logic.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[0.560s] copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/server_logic.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[0.560s] copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/logger.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[0.560s] copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/navigation_client_node.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+[0.560s] byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/service_server.py to service_server.cpython-310.pyc
+[0.561s] byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/logger_logic.py to logger_logic.cpython-310.pyc
+[0.561s] byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/server_logic.py to server_logic.cpython-310.pyc
+[0.561s] byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/logger.py to logger.cpython-310.pyc
+[0.562s] byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/navigation_client_node.py to navigation_client_node.cpython-310.pyc
+[0.562s] running install_data
+[0.562s] copying launch/launch.launch.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/share/multi_sensor_validator
+[0.562s] running install_egg_info
+[0.563s] removing '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info' (and everything under it)
+[0.563s] Copying ../../build/multi_sensor_validator/multi_sensor_validator.egg-info to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info
+[0.564s] running install_scripts
+[0.575s] Installing client script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing infrared script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing lidar script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing logger script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing server script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing ultrasonic script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] Installing validator script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+[0.576s] writing list of installed files to '/home/rafiq/ros_adv/build/multi_sensor_validator/install.log'
+[0.589s] Invoked command in '/home/rafiq/ros_adv/src/multi_sensor_validator' returned '0': PYTHONPATH=/home/rafiq/ros_adv/build/multi_sensor_validator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/multi_sensor_validator build --build-base /home/rafiq/ros_adv/build/multi_sensor_validator/build install --record /home/rafiq/ros_adv/build/multi_sensor_validator/install.log --single-version-externally-managed install_data

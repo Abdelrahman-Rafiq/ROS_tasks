@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/PKG-INFO
+writing dependency_links to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/dependency_links.txt
+writing entry points to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/entry_points.txt
+writing requirements to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/requires.txt
+writing top-level names to ../../build/multi_sensor_validator/multi_sensor_validator.egg-info/top_level.txt
+reading manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/multi_sensor_validator/multi_sensor_validator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying multi_sensor_validator/validator.py -> /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator
+running install
+running install_lib
+copying /home/rafiq/ros_adv/build/multi_sensor_validator/build/lib/multi_sensor_validator/validator.py -> /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator
+byte-compiling /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator/validator.py to validator.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/multi_sensor_validator/multi_sensor_validator.egg-info to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/python3.10/site-packages/multi_sensor_validator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing infrared script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing lidar script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing logger script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing server script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing ultrasonic script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+Installing validator script to /home/rafiq/ros_adv/install/multi_sensor_validator/lib/multi_sensor_validator
+writing list of installed files to '/home/rafiq/ros_adv/build/multi_sensor_validator/install.log'
