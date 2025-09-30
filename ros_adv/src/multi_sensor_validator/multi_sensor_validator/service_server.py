@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from interfaces.srv import CheckObstacle
-from server_logic import Server
+from .server_logic import Server
 
 
 class ServerNode(Node):

@@ -1,4 +1,4 @@
-from logger_logic import Logger
+from .logger_logic import Logger
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
