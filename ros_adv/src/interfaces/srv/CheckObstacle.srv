@@ -1,4 +1,0 @@
-sensor_msgs/Range[3] sensor_values
----
-bool obstacle_detected
-string message
